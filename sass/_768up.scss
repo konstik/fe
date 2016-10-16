@@ -1,0 +1,10 @@
+$header : '.header';
+
+#{$header}{
+	
+	&__headline{
+		&-highlight{
+			font-size: 100px;
+		}
+	}
+}

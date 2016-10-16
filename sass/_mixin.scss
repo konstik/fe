@@ -1,0 +1,27 @@
+- _mixin.scss
+	border-radius
+	border
+
+- _variables.scss /erledig
+	farbe
+
+- main.scss
+	@include 'mixin'
+	@include 'variables'
+	@include 'base'
+
+	@media-query 780 {
+		@import '780up'
+	}
+	@media-query 960 {
+		@import '960up'
+	}
+
+
+- _base.scss
+	alles css
+- _780up.scss
+	tablet
+- _960up.scss
+	tablet -landscape
+	desktop
